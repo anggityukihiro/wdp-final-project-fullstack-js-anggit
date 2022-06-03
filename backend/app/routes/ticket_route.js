@@ -7,10 +7,10 @@ import {
 
 const router = Router();
 
-router.get("/:ticket_id", get_ticket);
+router.get("/:user_id", get_ticket);
 
 router.post("/", add_ticket);
 
-router.put("/:ticket_id", update_ticket);
+router.put("/", update_ticket);
 
 export default router;

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../App.css";
 import Button from "../components/Button/Button";
+import { Link } from "react-router-dom";
 
 export default class Main extends Component {
 	render() {
@@ -97,7 +98,9 @@ export default class Main extends Component {
                                 <section class="text-gray-600 body-font">
                                 <div class="container mx-auto flex items-center justify-center flex-col">
                                     <img class="mb-5 object-cover object-center rounded -top-5" alt="layout" src="http://s3-ap-southeast-1.amazonaws.com/loket-production-sg/2022-03-23/68/6877627d9883e460802d4ea033f591c16449c93d855827417115853413.jpg"></img>
+                                    <Link to={'/order-ticket'}>
                                     <Button text={'Buy Ticket'} />
+                                    </Link>                                    
                                 </div>
                                 </section>
 

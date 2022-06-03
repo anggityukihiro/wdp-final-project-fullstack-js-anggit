@@ -73,19 +73,31 @@ const signupFields=[
     }
 ]
 
-const ordertikcetFields=[
+const orderticketFields=[
     {
-        labelText:"Voucher",
+        labelText:"Voucher Code",
         labelFor:"voucher_id",
         id:"voucher_id",
         name:"voucher_id",
         type:"text",
-        autoComplete:"name",
-        isRequired:false,
+        autoComplete:"voucher_id",
+        isRequired:true,
         placeholder:"Insert Voucher if available"   
-    },
-
+    }
 ]
 
+    const detailticketFields=[
+        {
+            labelText:"Link proof of payment",
+            labelFor:"proof_payment",
+            id:"proof_payment",
+            name:"proof_payment",
+            type:"text",
+            autoComplete:"proof_payment",
+            isRequired:true,
+            placeholder:"Fill link proof of payment"   
+        }
+    ]
 
-export {loginFields,signupFields, ordertikcetFields}
+
+export {loginFields,signupFields, orderticketFields, detailticketFields}

@@ -23,6 +23,10 @@ Backend
 Masuk ke direktori backend lalu buka GitBash / Shell ketik<br
 npm run dev
 
+#Dokumentasi Backend
+
+URL : https://documenter.getpostman.com/view/9328811/Uz5GobJr
+
 Log : 
 28 Mei 2022
 
@@ -49,3 +53,31 @@ Log :
  8. Page Cetak Tiket : Belum
  9. Logic penyesuaian Navbar & Redirect jika sudah/belum login : Done
  10. Deploy ke public : Belum karena belum beres semua
+ 
+ Log : 
+04 Juni 2022
+
+ A. Backend :
+ 1. Proses Register : Done
+ 2. Proses Login : Done 
+ 3. Proses Logout : Done
+ 4. Proses Get Event : Done
+ 5. Proses Get Payment Method : Done
+ 6. Proses Check Voucher : Done
+ 7. Proses Order Ticket : Done 
+ 8. Proses Detail Order Tiket : Done
+ 9. Proses Konfirmasi Payment : Done
+ 10. Deploy ke VPS Server : Belum masih localhost, belum nemu link beli VPS yang murah bingits buat 1 bulan
+
+ A. Frontend:
+ 1. Form & Proses Register : Done
+ 2. Form & Proses Login : Done 
+ 3. Proses Logout : Done
+ 4. Tampilan Home Page : Done
+ 5. Form & Proses Order Tiket : Done
+ 6. UI & Proses Check Voucher : Belum -> di include kan prosesnya ketika order tiket
+ 7. Page & Proses Konfurmasi : Done
+ 8. Page Cetak Tiket : Belum : Done
+ 9. Logic penyesuaian Navbar & Redirect jika sudah/belum login : Done
+ 10. Deploy ke public : Belum karena belum beres semua
+ 11. Dark Mode : Belum sempat buat styling css nya

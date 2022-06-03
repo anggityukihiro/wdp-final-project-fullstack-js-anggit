@@ -24,7 +24,7 @@ const ticketSchema = new Schema({
     required: [true, "Status WAJIB di isi !"],
     },
   nominal: {
-    type: String,
+    type: Number,
     required: [true, "Nominal WAJIB di isi !"],
     },
   order_date: {

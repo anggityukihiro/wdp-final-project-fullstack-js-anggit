@@ -37,11 +37,6 @@ export default function Login(){
               setMsg(error.response.data.message);
             }
           }
-       // authenticateUser();
-
-    //Handle Login API Integration here
-    //const authenticateUser = () =>{
-
     }
 
     return(

@@ -8,6 +8,8 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import LoginPage from "./pages/Login";
 import SignupPage from './pages/Signup';
 import OrderTicket from "./pages/OrderTicket";
+import DetailTicket from "./pages/DetailTicket";
+import PrintTicket from "./pages/PrintTicket";
 import jwt_decode from "jwt-decode";
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
@@ -53,7 +55,7 @@ function App() {
 
 	const navigation = [
 		{ name: 'NEWS', href: '/#news', current: true },
-		{ name: 'TICKET', href: '/#ticket', current: false },
+		{ name: 'LAYOUT', href: '/#ticket', current: false },
 		{ name: 'PROMOTERS', href: '/#promoters', current: false },
 		{ name: 'CONTACT US', href: '/#contactus', current: false },
 	  ]
@@ -94,7 +96,7 @@ function App() {
 								<Menu.Item>
 									{({ active }) => (
 									<a
-										href="#"
+										href="/detail-ticket"
 										className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
 									>
 										My Ticket
@@ -203,6 +205,8 @@ function App() {
 					<Route path="/login" element={<LoginPage />} />
 					<Route path="/signup" element={<SignupPage />} />
 					<Route path="/order-ticket" element={<OrderTicket />} />
+					<Route path="/detail-ticket" element={<DetailTicket />} />
+					<Route path="/print-ticket" element={<PrintTicket />} />
 					<Route path="/" element={<Main />} />
 				</Routes>	
 			</div>			
@@ -213,8 +217,7 @@ function App() {
 						stroke="currentColor">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
 							d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-					</svg> by Anggit Nur
-					Iman
+					</svg> by Anggit Nur Iman
 					<p
 						class="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4 text-center">© 2022 PK ENTERTAINMENT GROUP INDONESIA. ALL RIGHTS RESERVED. 
 					</p>
